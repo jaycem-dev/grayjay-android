@@ -183,6 +183,14 @@ class Settings : FragmentedStorageFileJson() {
     @FormField(R.string.advanced_settings, FieldForm.TOGGLE, R.string.advanced_settings_description, -1, "advancedSettings")
     var advancedSettings: Boolean = false;
 
+    @FormField(R.string.security, "group", -1, 0)
+    var security = SecuritySettings();
+    @Serializable
+    class SecuritySettings {
+        @FormField(R.string.settings_lock, FieldForm.TOGGLE, R.string.settings_lock_description, 0, "settings_lock")
+        var settingsLock: Boolean = false;
+    }
+
     @FormField(R.string.language, "group", -1, 0)
     var language = LanguageSettings();
     @Serializable
@@ -894,7 +902,8 @@ class Settings : FragmentedStorageFileJson() {
     class AutoUpdate {
         @FormField(R.string.check, FieldForm.DROPDOWN, -1, 0)
         @DropdownFieldOptionsId(R.array.auto_update_when_array)
-        var check: Int = 0;
+        //Default to "Never" so fork builds are not replaced by upstream APKs.
+        var check: Int = 1;
 
         @FormField(R.string.background_download, FieldForm.TOGGLE, R.string.configure_if_background_download_should_be_used, 1)
         //@DropdownFieldOptionsId(R.array.background_download)

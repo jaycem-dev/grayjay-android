@@ -1,5 +1,7 @@
 # PlatformPlayer
 
+> This repository is a **soft fork** of [FUTO's Grayjay for Android](https://github.com/futo-org/grayjay-android), rebased onto each FUTO release tag. It adds a small feature: a settings lock that requires the device PIN, pattern or password (device credentials) before opening the **Settings** or **Sources** tabs, to prevent settings modification on shared devices.
+
 The FUTO media app endeavours creating infrastructure for creators to have their content hosted by someone else but at the same time having creators retain full ownership of their content. We want creators to feel like they are publishing to the world, and we want multiple indexers competing with each other to do a good job connecting consumers to creators and their content.
 
 One part of the solution is to create an application that allows users to search through all available media websites and giving creators the tools for direct monetization of their content by allowing users to directly donate to the content creator.

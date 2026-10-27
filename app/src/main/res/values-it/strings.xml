@@ -1110,4 +1110,11 @@
         <item>1500</item>
         <item>2000</item>
     </string-array>
+    <string name="security">Sicurezza</string>
+    <string name="settings_lock">Blocca impostazioni</string>
+    <string name="settings_lock_description">Richiede PIN, pattern o password del dispositivo per modificare le impostazioni e aprire la scheda Sorgenti</string>
+    <string name="settings_lock_auth_title">Sblocca</string>
+    <string name="settings_lock_auth_description">Conferma le credenziali del dispositivo per modificare le impostazioni</string>
+    <string name="settings_lock_auth_sources_description">Conferma le credenziali del dispositivo per aprire le Sorgenti</string>
+    <string name="settings_lock_no_lockscreen">Imposta un PIN, pattern o password del dispositivo affinché questa impostazione sia effettiva</string>
 </resources>

@@ -713,4 +713,11 @@
         <item>Turco (TR)</item>
         <item>Azerbaijano (AZ)</item>
     </string-array>
+    <string name="security">Segurança</string>
+    <string name="settings_lock">Bloquear configurações</string>
+    <string name="settings_lock_description">Exige o PIN, padrão ou senha do dispositivo para alterar as configurações e abrir a aba de Fontes</string>
+    <string name="settings_lock_auth_title">Desbloquear</string>
+    <string name="settings_lock_auth_description">Confirme as credenciais do dispositivo para alterar as configurações</string>
+    <string name="settings_lock_auth_sources_description">Confirme as credenciais do dispositivo para abrir as Fontes</string>
+    <string name="settings_lock_no_lockscreen">Defina um PIN, padrão ou senha do dispositivo para que esta configuração tenha efeito</string>
 </resources>

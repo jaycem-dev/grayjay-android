@@ -163,6 +163,7 @@ dependencies {
     //Core
     implementation 'androidx.core:core-ktx:1.17.0'
     implementation 'androidx.appcompat:appcompat:1.7.1'
+    implementation 'androidx.biometric:biometric:1.2.0-alpha05'
     implementation 'androidx.constraintlayout:constraintlayout:2.2.1'
     implementation 'androidx.documentfile:documentfile:1.1.0'
 

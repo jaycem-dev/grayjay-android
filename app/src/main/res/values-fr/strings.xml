@@ -721,4 +721,11 @@
         <item>Turc (TR)</item>
         <item>Azerbaïdjanais (AZ)</item>
     </string-array>
+    <string name="security">Sécurité</string>
+    <string name="settings_lock">Verrouiller les paramètres</string>
+    <string name="settings_lock_description">Exige le code, le schéma ou le mot de passe de l\'appareil pour modifier les paramètres et ouvrir l\'onglet Sources</string>
+    <string name="settings_lock_auth_title">Déverrouiller</string>
+    <string name="settings_lock_auth_description">Confirmez les identifiants de l\'appareil pour modifier les paramètres</string>
+    <string name="settings_lock_auth_sources_description">Confirmez les identifiants de l\'appareil pour ouvrir les Sources</string>
+    <string name="settings_lock_no_lockscreen">Définissez un code, un schéma ou un mot de passe de l\'appareil pour que ce paramètre soit effectif</string>
 </resources>

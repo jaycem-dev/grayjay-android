@@ -713,4 +713,11 @@
         <item>터키어 (TR)</item>
         <item>아제르바이잔어 (AZ)</item>
     </string-array>
+    <string name="security">보안</string>
+    <string name="settings_lock">설정 잠금</string>
+    <string name="settings_lock_description">설정을 변경하고 소스 탭을 열려면 기기의 PIN, 패턴 또는 비밀번호 인증이 필요합니다</string>
+    <string name="settings_lock_auth_title">잠금 해제</string>
+    <string name="settings_lock_auth_description">설정을 변경하려면 기기 자격 증명을 인증해 주세요</string>
+    <string name="settings_lock_auth_sources_description">소스 탭을 열려면 기기 자격 증명을 인증해 주세요</string>
+    <string name="settings_lock_no_lockscreen">이 설정을 적용하려면 기기에 PIN, 패턴 또는 비밀번호를 설정하세요</string>
 </resources>

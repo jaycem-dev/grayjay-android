@@ -1038,4 +1038,11 @@
         <item>1500</item>
         <item>2000</item>
     </string-array>
+    <string name="security">Güvenlik</string>
+    <string name="settings_lock">Ayarları kilitle</string>
+    <string name="settings_lock_description">Ayarları değiştirmek ve Kaynaklar sekmesini açmak için cihaz PIN kodu, deseni veya şifresi gerektirir</string>
+    <string name="settings_lock_auth_title">Kilidi aç</string>
+    <string name="settings_lock_auth_description">Ayarları değiştirmek için cihaz kimlik bilgilerini onayla</string>
+    <string name="settings_lock_auth_sources_description">Kaynaklar sekmesini açmak için cihaz kimlik bilgilerini onayla</string>
+    <string name="settings_lock_no_lockscreen">Bu ayarın geçerli olması için cihazınızda PIN kodu, desen veya şifre ayarlayın</string>
 </resources>

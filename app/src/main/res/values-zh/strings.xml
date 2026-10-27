@@ -713,4 +713,11 @@
         <item>土耳其语 (TR)</item>
         <item>阿塞拜疆语 (AZ)</item>
     </string-array>
+    <string name="security">安全</string>
+    <string name="settings_lock">锁定设置</string>
+    <string name="settings_lock_description">更改设置和打开“来源”标签页需要设备PIN码、图案或密码验证</string>
+    <string name="settings_lock_auth_title">解锁</string>
+    <string name="settings_lock_auth_description">确认设备凭据以更改设置</string>
+    <string name="settings_lock_auth_sources_description">确认设备凭据以打开“来源”标签页</string>
+    <string name="settings_lock_no_lockscreen">请先设置设备PIN码、图案或密码，此设置才会生效</string>
 </resources>

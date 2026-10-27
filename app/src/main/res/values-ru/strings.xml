@@ -713,4 +713,11 @@
         <item>Турецкий (TR)</item>
         <item>Азербайджанский (AZ)</item>
     </string-array>
+    <string name="security">Безопасность</string>
+    <string name="settings_lock">Блокировка настроек</string>
+    <string name="settings_lock_description">Требует PIN-код, узор или пароль устройства для изменения настроек и открытия вкладки «Источники»</string>
+    <string name="settings_lock_auth_title">Разблокировать</string>
+    <string name="settings_lock_auth_description">Подтвердите данные устройства, чтобы изменять настройки</string>
+    <string name="settings_lock_auth_sources_description">Подтвердите данные устройства, чтобы открыть «Источники»</string>
+    <string name="settings_lock_no_lockscreen">Установите PIN-код, узор или пароль устройства, чтобы этот параметр действовал</string>
 </resources>

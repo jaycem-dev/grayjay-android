@@ -713,4 +713,11 @@
         <item>トルコ語 (TR)</item>
         <item>アゼルバイジャン語 (AZ)</item>
     </string-array>
+    <string name="security">セキュリティ</string>
+    <string name="settings_lock">設定をロック</string>
+    <string name="settings_lock_description">設定の変更やソースタブを開くには、端末のPIN・パターン・パスワードによる認証が必要です</string>
+    <string name="settings_lock_auth_title">ロック解除</string>
+    <string name="settings_lock_auth_description">設定を変更するには端末の認証情報を確認してください</string>
+    <string name="settings_lock_auth_sources_description">ソースタブを開くには端末の認証情報を確認してください</string>
+    <string name="settings_lock_no_lockscreen">この設定を有効にするには、端末のPIN・パターン・パスワードを設定してください</string>
 </resources>

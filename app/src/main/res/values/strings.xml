@@ -1284,4 +1284,11 @@
     <string name="import_from_file">Import from File</string>
     <string name="save_profile_to_file_for_sharing">Save profile to file for sharing</string>
     <string name="profile_saved_successfully">Profile saved successfully</string>
+    <string name="security">Security</string>
+    <string name="settings_lock">Lock Settings</string>
+    <string name="settings_lock_description">Require your device PIN, pattern or password to change settings and to open the Sources tab</string>
+    <string name="settings_lock_auth_title">Unlock</string>
+    <string name="settings_lock_auth_description">Confirm your device credentials to change settings</string>
+    <string name="settings_lock_auth_sources_description">Confirm your device credentials to open Sources</string>
+    <string name="settings_lock_no_lockscreen">Set a device PIN, pattern or password for this setting to be effective</string>
 </resources>

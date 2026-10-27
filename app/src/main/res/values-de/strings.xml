@@ -1026,4 +1026,11 @@
         <item>Italienisch</item>
         <item>Aserbaidschanisch</item>
     </string-array>
+    <string name="security">Sicherheit</string>
+    <string name="settings_lock">Einstellungen sperren</string>
+    <string name="settings_lock_description">Verlangt Geräte-PIN, Muster oder Passwort, um Einstellungen zu ändern und den Quellen-Tab zu öffnen</string>
+    <string name="settings_lock_auth_title">Entsperren</string>
+    <string name="settings_lock_auth_description">Bestätige deine Geräte-Anmeldedaten, um Einstellungen zu ändern</string>
+    <string name="settings_lock_auth_sources_description">Bestätige deine Geräte-Anmeldedaten, um Quellen zu öffnen</string>
+    <string name="settings_lock_no_lockscreen">Lege eine Geräte-PIN, ein Muster oder ein Passwort fest, damit diese Einstellung wirksam ist</string>
 </resources>

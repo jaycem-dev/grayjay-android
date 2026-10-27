@@ -38,6 +38,7 @@ import com.futo.platformplayer.BuildConfig
 import com.futo.platformplayer.R
 import com.futo.platformplayer.RootInsetsController
 import com.futo.platformplayer.Settings
+import com.futo.platformplayer.SettingsLock
 import com.futo.platformplayer.UIDialogs
 import com.futo.platformplayer.api.http.ManagedHttpClient
 import com.futo.platformplayer.api.media.models.video.LocalVideoDetails
@@ -1197,6 +1198,7 @@ class MainActivity : AppCompatActivity, IWithResultLauncher {
     override fun onDestroy() {
         super.onDestroy();
         Logger.w(TAG, "onDestroy [$mainId]")
+        SettingsLock.reset();
         StateApp.instance.mainAppDestroyed(this, mainId);
     }
 
@@ -1240,6 +1242,28 @@ class MainActivity : AppCompatActivity, IWithResultLauncher {
     @SuppressLint("CommitTransaction")
     fun navigate(segment: MainFragment, parameter: Any? = null, withHistory: Boolean = true, isBack: Boolean = false) {
         Logger.i(TAG, "Navigate to $segment (parameter=$parameter, withHistory=$withHistory, isBack=$isBack)")
+
+        if (segment != fragCurrent && (segment is SourcesFragment || segment is SettingsFragment) && SettingsLock.requiresUnlock(this)) {
+            val description = if (segment is SourcesFragment)
+                getString(R.string.settings_lock_auth_sources_description) else
+                getString(R.string.settings_lock_auth_description);
+            SettingsLock.authenticate(this, getString(R.string.settings_lock_auth_title), description, onSuccess = {
+                //Credentials were just confirmed, skip the gate for this navigation
+                navigateAuthorized(segment, parameter, withHistory, isBack);
+            });
+            return;
+        }
+
+        navigateAuthorized(segment, parameter, withHistory, isBack);
+    }
+
+    /**
+     * Performs the navigation without checking the settings lock.
+     */
+    @SuppressLint("CommitTransaction")
+    private fun navigateAuthorized(segment: MainFragment, parameter: Any? = null, withHistory: Boolean = true, isBack: Boolean = false) {
+        if (isFinishing || isDestroyed)
+            return;
 
         if (segment != fragCurrent) {
 

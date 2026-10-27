@@ -713,4 +713,11 @@
         <item>التركية (TR)</item>
         <item>الأذربيجانية (AZ)</item>
     </string-array>
+    <string name="security">الأمان</string>
+    <string name="settings_lock">قفل الإعدادات</string>
+    <string name="settings_lock_description">تطلب رمز قفل الجهاز أو النمط أو كلمة المرور لتغيير الإعدادات وفتح علامة تبويب المصادر</string>
+    <string name="settings_lock_auth_title">فتح القفل</string>
+    <string name="settings_lock_auth_description">أكّد بيانات اعتماد جهازك لتغيير الإعدادات</string>
+    <string name="settings_lock_auth_sources_description">أكّد بيانات اعتماد جهازك لفتح المصادر</string>
+    <string name="settings_lock_no_lockscreen">عيّن رمز قفل الجهاز أو النمط أو كلمة المرور لتصبح هذه الإعداد نافذة</string>
 </resources>
